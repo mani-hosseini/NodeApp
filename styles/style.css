@@ -30,6 +30,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
     gap: 9px;
     padding: 12px 0;
     margin-top: 18px;
@@ -42,7 +43,13 @@ a{
     display: flex;
     justify-content: space-between;
     padding: 11px 17px;
-    margin: 32px 0;
+    margin: 24px 0;
+}
+input{
+    width: 60%;
+    background: inherit;
+    border: none;
+    outline: none;
 }
 .notes p{
     color: white;
